@@ -28,4 +28,9 @@ header {
     font-weight: 200 !important;
     letter-spacing: 4px;
 }
+
+.site-footer {
+    margin-top: auto; 
+    position: sticky;
+}
   
