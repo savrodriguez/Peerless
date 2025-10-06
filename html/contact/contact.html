@@ -19,8 +19,8 @@
       
           <!-- Top row: logo + name side by side -->
           <div class="d-flex justify-content-center align-items-center mb-3">
-            <img src="../../imgs/logo.png" height="190" class="me-3">
-            <h1 class="fw-bold text-white mb-0" style="font-size: 2.8rem;">
+            <img src="../../imgs/logo.png" height="150" class="me-3">
+            <h1 class="fw-bold text-white mb-0" style="font-size: 2.3rem;">
               Peerless Print & Graphics
             </h1>
           </div>
@@ -45,28 +45,58 @@
     </header>
 
     <section id="contact">
-        <h2>Contact Us</h2>
-        <p>If you have any questions or would like to request a quote, please reach out to us!</p>
-        <form action="https://formspree.io/f/mblabzbv " method="POST", enctype="multipart/form-data">
-            <label for="name">Name:</label><br>
-            <input type="text" id="name" name="name" required><br><br>
+      <div class="contact-container">
+        <div class="contact-text">
+          <p id="contact-us">Contact Us</p>
+          <p id="summary">If you have any questions or would like to request a quote, please reach out to us!
+          </p>
+          <p id="email-contact"><img src="../../imgs/email.png" alt="email icon" id="email-icon">&nbsp;Email: javier@printppg.com</p>
+          <p id="phone-contact"><img src="../../imgs/phone.png" alt="phone icon" id="phone-icon">&nbsp;Phone: (559) 577-3854</p>
+          <p id="address">
+            <img src="../../imgs/pin.png" alt="address icon" id="address-icon">
+            <span class="address-label">Address:</span>
+            <span class="address-lines">
+              110 W Pontiac Way<br>
+              Ste. 102, Clovis, CA
+            </span>
+          </p>
 
-            <label for="email">Email:</label><br>
-            <input type="email" id="email" name="_replyto" required><br><br>
-    
-            <label for="message">Message/Request:</label><br>
-            <textarea id="message" name="message" rows="4" required></textarea><br><br>
+          <p id="hours">Business Hours: M-F 8:30am - 4:30pm</p>
+        </div>
 
-            <label for="file">Upload file:</label><br>
-            <input type="file" id="file" name="attachment"><br><br>
+        <form class="row g-3" action="https://formspree.io/f/mblabzbv " method="POST", enctype="multipart/form-data">
+          <div class="col-md-10">
+            <label for="name" class="form-label">Name:</label><br>
+            <input type="text" class="form-control"id="name" name="name"  required><br><br>
+          </div>
 
-            <button type="submit">Submit</button>
+          <div class="col-md-10">
+            <label for="email" class="form-label">Email:</label><br>
+            <input type="email" id="email" class="form-control" name="_replyto" required><br><br>
+          </div>
+
+          <div class="col-md-10">
+            <label for="message" class="form-label">Message/Request:</label><br>
+            <textarea id="message" class="form-control" name="message" rows="3" placeholder="please include phone number"required></textarea><br><br>
+          </div>
+
+          <div class="col-md-10">
+            <label for="file" class="form-label">Upload file:</label><br>
+            <input type="file" class="form-control" id="file" name="attachment"><br><br>
+          </div>
+
+          <div class="col-md-12">
+          <button type="submit" id="button">Submit</button>
+          </div>
         </form>
+      </div>
     </section>
 
 
-    <footer>
-        <p>&copy; 2018 Peerless Print & Graphic. All rights reserved.</p>
-    </footer>
+    <div class="sticky-bottom">
+      <footer class="site-footer bg-dark text-white text-center py-5">
+          <p class="mb-6">&copy; 2018 Peerless Print & Graphic. All rights reserved.</p>
+      </footer>
+  </div>
 </body>
 </html>
