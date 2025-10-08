@@ -1,0 +1,35 @@
+.site-header {
+    background-image: url('../../imgs/header.png');
+    background-size: cover;
+    background-position: center;
+    height: 400px;              
+    display: flex;
+    align-items: center;        
+    color: #fff;
+    justify-content: center;
+}
+.nav-link {
+    font-size: 1.2rem;
+}
+
+.site-header .navbar {
+    width: 100%;
+}
+
+.navbar-brand, .nav-link {
+    color: #ffffff !important;
+}
+.nav-link:hover {
+    color: #2877c7 !important; 
+}
+
+header {
+    font-family: "Montserrat", sans-serif !important;
+    font-weight: 200 !important;
+    letter-spacing: 4px;
+}
+
+.site-footer {
+    margin-top: auto; 
+    position: sticky;
+}
