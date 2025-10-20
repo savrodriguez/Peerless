@@ -183,6 +183,24 @@ form {
     display: inline-block;
 }
 
+  
+.email-label {
+    font-weight: 300;
+    margin-right: 5px;
+}
+
+
+#email-contact {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  
+.email-lines {
+    display: flex;
+    flex-direction: column;
+}
+
 #hours {
     font-size: 15px;
     font-family: "Montserrat", sans-serif !important;

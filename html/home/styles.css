@@ -148,6 +148,13 @@ body {
     margin-top: 150px;
 }
 
+.union {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 45px;
+}
+
 #second-text {
     font-family: "Montserrat", sans-serif !important;
     font-size: 24px;
