@@ -1,5 +1,5 @@
 .site-header {
-    background-image: url('../Peerless/imgs/header.png');
+    background-image: url('/Peerless/imgs/header.png');
     background-size: cover;
     background-position: center;
     height: 400px;              
