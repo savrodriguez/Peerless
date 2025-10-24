@@ -260,7 +260,7 @@ body {
     }
 
     #union {
-        width: 300px !important;
+        width: 100px !important;
     }
 
     #name {
@@ -269,7 +269,7 @@ body {
     }
 
     #summary-darla {
-        margin-right: 100px;
+        margin-right: 30px;
     }
 
  }
