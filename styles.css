@@ -260,7 +260,7 @@ body {
     }
 
     #union-img {
-        width: 200px !important;
+        width: 400px !important;
         height: auto !important;
     }
 
@@ -272,7 +272,7 @@ body {
     #summary-darla {
         margin-right: auto !important;
         margin-left: auto !important;
-        text-align: center !important;
+        text-align: start !important;
         max-width: 90% !important;
       }
 
