@@ -259,8 +259,9 @@ body {
         margin-left: 40px;
     }
 
-    #union {
-        width: 100px !important;
+    #union-img {
+        width: 200px !important;
+        height: auto !important;
     }
 
     #name {
@@ -269,8 +270,11 @@ body {
     }
 
     #summary-darla {
-        margin-right: 30px;
-    }
+        margin-right: auto !important;
+        margin-left: auto !important;
+        text-align: center !important;
+        max-width: 90% !important;
+      }
 
  }
  
