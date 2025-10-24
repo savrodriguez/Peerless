@@ -260,7 +260,8 @@ body {
     }
 
     .union {
-        width: 300px !important;
+        width: 200px !important;
+        height: 100px;
     }
 
     #name {
