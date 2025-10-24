@@ -241,6 +241,7 @@ body {
 
     .nav-link {
         font-size: 0.6rem;
+        font-weight: 400 !important;
     }
  
     .item, .item-press {
@@ -259,16 +260,16 @@ body {
     }
 
     .union {
-        max-width: 40% !important;
+        width: 300px !important;
     }
 
     #name {
         font-size: 18px;
-        margin: 10px 20px;
+        margin: 6px 25px;
     }
 
     #summary-darla {
-        margin-right: 118px;
+        margin-right: 100px;
     }
 
  }
