@@ -157,4 +157,28 @@ header {
         font-size: 18px;
     }
 
+    #services {
+        font-size: 23px !important;
+    }
+
+    .item {
+        font-size: 14px !important;
+        max-width: 80% !important;
+    }
+
+    .folding {
+        font-size: 14px !important;
+        max-width: 80% !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .service-img {
+        height: auto !important;
+        width: 80% !important;
+        margin-top: 15px !important;
+    }
+
 }
