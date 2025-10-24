@@ -169,16 +169,18 @@ header {
     .folding {
         font-size: 14px !important;
         max-width: 80% !important;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
+        margin-left: 0px !important;
     }
 
     .service-img {
         height: auto !important;
         width: 80% !important;
         margin-top: 15px !important;
+    }
+
+    #offer {
+        font-size: 18px !important;
+        margin: 30px !important;
     }
 
 }
