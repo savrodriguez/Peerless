@@ -86,3 +86,38 @@ header {
     color: #174572;
     font-weight: 500 !important;
 }
+
+@media (max-width: 768px) {
+    /* only apply these when the screen is small */
+    .site-header {
+        height: 190px;
+        width: auto;
+        background-position: center;
+    }
+
+    #logo {
+        height: 80px;
+        width: auto;
+        margin-top: 30px;
+    }
+
+    #title {
+        font-size: 1.5rem;
+        margin-top: 60px;
+    }
+
+    .nav-link {
+        font-size: 0.6rem;
+        font-weight: 400 !important;
+    }
+ 
+    .item, .item-press {
+        max-width: 90% !important;
+        margin: 10px auto !important;
+    }
+ 
+    #main-head {
+        font-size: 18px;
+    }
+
+}
