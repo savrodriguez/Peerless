@@ -149,22 +149,31 @@ header {
         font-size: 23px !important;
     }
 
+    #offer {
+        font-size: 18px !important;
+        margin: 10px !important;
+    }
+
+        /* Fix spacing between cards */
+    .container {
+        margin-bottom: 40px; /* adds space between each row section */
+    }
+
     .item, .folding {
         font-size: 14px !important;
-        max-width: 100% !important;
-        margin: 10px auto !important;
+        max-width: 90% !important;
+        margin: 20px auto !important;
+        padding: 12px !important;
     }
 
     .service-img {
         height: auto !important;
         width: 80% !important;
-        margin: 20px !important;
-
+        margin: 15px auto !important;
+        display: block;
     }
+    
 
-    #offer {
-        font-size: 18px !important;
-        margin: 10px !important;
-    }
+
 
 }
