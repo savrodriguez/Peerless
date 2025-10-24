@@ -87,15 +87,12 @@ header {
     box-sizing: border-box;
     max-width: 30%;
     padding: 20px 2px;
-    margin: 30px;
-    margin-left: 365px;
+    margin: 30px auto;
     border: solid grey;
     border-radius: 13px;
     background-color: grey;
     color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
 }
 
 #detail {
@@ -150,7 +147,7 @@ header {
  
     .item, .item-press {
         max-width: 90% !important;
-        margin: 10px auto !important;
+        margin: 10px 0px !important;
     }
  
     #main-head {
@@ -161,15 +158,9 @@ header {
         font-size: 23px !important;
     }
 
-    .item {
+    .item, .folding {
         font-size: 14px !important;
         max-width: 80% !important;
-    }
-
-    .folding {
-        font-size: 14px !important;
-        max-width: 80% !important;
-        margin-left: 0px !important;
     }
 
     .service-img {
@@ -180,7 +171,7 @@ header {
 
     #offer {
         font-size: 18px !important;
-        margin: 30px !important;
+        margin: 10px !important;
     }
 
 }
