@@ -259,9 +259,8 @@ body {
         margin-left: 40px;
     }
 
-    .union {
-        width: 200px !important;
-        height: 100px;
+    #union {
+        width: 300px !important;
     }
 
     #name {
