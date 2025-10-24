@@ -156,9 +156,10 @@ header {
     }
 
     .service-img {
-        height: 60% !important;
+        height: 30% !important;
         width: 80% !important;
-        margin-top: 15px !important;
+        margin: 20px !important;
+
     }
 
     #offer {
