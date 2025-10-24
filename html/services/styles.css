@@ -137,17 +137,12 @@ header {
 
     #title {
         font-size: 1.5rem;
-        margin-top: 60px;
+        margin-top: 30px;
     }
 
     .nav-link {
         font-size: 0.6rem;
         font-weight: 400 !important;
-    }
- 
-    .item, .item-press {
-        max-width: 90% !important;
-        margin: 10px 0px !important;
     }
  
     #main-head {
@@ -161,6 +156,7 @@ header {
     .item, .folding {
         font-size: 14px !important;
         max-width: 80% !important;
+        margin: 10px auto !important;
     }
 
     .service-img {
