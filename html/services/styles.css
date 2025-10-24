@@ -167,7 +167,7 @@ header {
     }
 
     .service-img {
-        height: auto !important;
+        height: 100% !important;
         width: 80% !important;
         margin: 15px auto !important;
         display: block;
