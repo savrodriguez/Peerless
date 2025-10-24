@@ -236,14 +236,11 @@ body {
 
     #title {
         font-size: 1.5rem;
-    }
-
-    header {
-        margin-top: 30px;
+        margin-top: 60px;
     }
 
     .nav-link {
-        font-size: 0.3rem;
+        font-size: 0.6rem;
     }
  
     .item, .item-press {
@@ -262,7 +259,12 @@ body {
     }
 
     .union {
-        max-width: 90% !important;
+        max-width: 40% !important;
+    }
+
+    #name {
+        font-size: 18px;
+        margin: 10px 20px;
     }
 
  }
