@@ -211,7 +211,8 @@ body {
 @media (max-width: 768px) {
     /* only apply these when the screen is small */
     .site-header {
-        height: 250px;
+        height: 150px;
+        width: auto;
         background-position: center;
     }
  
@@ -221,7 +222,13 @@ body {
     }
  
     #main-head {
-        font-size: 26px;
+        font-size: 18px;
+    }
+
+    #star {
+        height: 10px;
+        width: auto;
+        margin-left: 50px;
     }
  }
  
