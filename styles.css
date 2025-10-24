@@ -223,7 +223,7 @@ body {
 @media (max-width: 768px) {
     /* only apply these when the screen is small */
     .site-header {
-        height: 150px;
+        height: 170px;
         width: auto;
         background-position: center;
     }
