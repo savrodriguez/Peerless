@@ -8,6 +8,11 @@
     color: #fff;
     justify-content: center;
 }
+
+#logo {
+    height: 190px;
+    width: auto;
+}
 .nav-link {
     font-size: 1.2rem;
 }
@@ -215,6 +220,11 @@ body {
         width: auto;
         background-position: center;
     }
+
+    #logo {
+        height: 80px;
+        width: auto;
+    }
  
     .item, .item-press {
         max-width: 90% !important;
@@ -228,7 +238,8 @@ body {
     #star {
         height: 10px;
         width: auto;
-        margin-left: 50px;
+        margin-left: 20px;
     }
+
  }
  
