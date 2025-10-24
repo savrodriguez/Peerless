@@ -67,16 +67,12 @@ header {
     box-sizing: border-box;
     max-width: 60%;
     padding: 20px 2px;
-    margin: 30px;
-    margin-left: 85px;
+    margin: 30px auto;
     border: solid grey;
     border-radius: 13px;
     background-color: grey;
     color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
+    text-align: center;
 }
 
 .folding {
@@ -155,12 +151,12 @@ header {
 
     .item, .folding {
         font-size: 14px !important;
-        max-width: 80% !important;
+        max-width: 100% !important;
         margin: 10px auto !important;
     }
 
     .service-img {
-        height: auto !important;
+        height: 100% !important;
         width: 80% !important;
         margin-top: 15px !important;
     }
