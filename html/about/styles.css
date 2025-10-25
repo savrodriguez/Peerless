@@ -119,4 +119,18 @@ header {
         font-size: 18px;
     }
 
+    .about {
+        margin-top: 30px !important;
+    }
+
+    .sum, .sum2{
+        margin: 15px 15px !important;
+    }
+
+    #building {
+        width: 90% !important;
+        height: auto;
+        margin: 15px;
+    }
+
 }
