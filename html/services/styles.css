@@ -164,9 +164,6 @@ header {
     }
 
         /* Fix spacing between cards */
-    .container {
-        margin-bottom: 40px; /* adds space between each row section */
-    }
 
     .item, .folding {
         font-size: 14px !important;
