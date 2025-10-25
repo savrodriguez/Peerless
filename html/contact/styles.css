@@ -226,7 +226,7 @@ form {
 @media (max-width: 768px) {
     /* only apply these when the screen is small */
     .site-header {
-        height: 170px;
+        height: 220px;
         width: auto;
         background-position: center;
     }
@@ -239,11 +239,11 @@ form {
 
     #title {
         font-size: 1.5rem;
-        margin-top: 60px;
+        margin-top: 40px;
     }
 
     .nav-link {
-        font-size: 0.6rem;
+        font-size: 0.8rem;
         font-weight: 400 !important;
     }
  
@@ -255,5 +255,82 @@ form {
     #main-head {
         font-size: 18px;
     }
+
+    #contact {
+        flex-direction: column; /* stack text & form vertically */
+        align-items: center;
+        justify-content: center;
+        margin: 40px 15px !important; /* tighten spacing */
+        gap: 25px;
+    }
+  
+    .contact-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+    }
+  
+    .contact-text,
+    form {
+        max-width: 100% !important;
+        width: 100%;
+        text-align: center;
+    }
+  
+    #contact-us {
+        font-size: 2rem !important;
+        margin: 30px auto;
+    }
+  
+    #summary {
+        font-size: 1rem !important;
+        margin: 20px auto;
+        width: 90%;
+    }
+  
+    #email-contact,
+    #phone-contact,
+    #address {
+        font-size: 1rem;
+        margin: 20px auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+  
+    #email-icon,
+    #phone-icon,
+    #address-icon {
+        height: 24px;
+        width: auto;
+        margin-bottom: 8px;
+    }
+  
+    #hours {
+        margin: 30px 0;
+        font-size: 0.9rem;
+        text-align: center;
+    }
+  
+    form {
+        padding: 10px;
+        margin: 0 auto;
+    }
+  
+    .form-control {
+        width: 100%;
+        font-size: 1rem;
+    }
+  
+    #button {
+        width: 100%;
+        font-size: 1rem;
+        padding: 12px;
+    }
+
+    form {
+        margin-top: 30px;
+      }      
 
 }
