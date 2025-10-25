@@ -223,7 +223,7 @@ body {
 @media (max-width: 768px) {
     /* only apply these when the screen is small */
     .site-header {
-        height: 170px;
+        height: 220px;
         width: auto;
         background-position: center;
     }
@@ -236,11 +236,11 @@ body {
 
     #title {
         font-size: 1.5rem;
-        margin-top: 60px;
+        margin-top: 40px;
     }
 
     .nav-link {
-        font-size: 0.6rem;
+        font-size: 0.8rem;
         font-weight: 400 !important;
     }
  
