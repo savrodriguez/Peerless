@@ -133,7 +133,7 @@ header {
         font-size: 18px;
     }
 
-    #coming-soon {
+    .coming-soon {
         font-size: 40px;
         margin-top: 40px !important;
         display: flex;
@@ -142,7 +142,7 @@ header {
         text-align: center;
     }
 
-    #contact {
+    .contact {
         font-size: 16px;
         margin: 20px 30px;
         text-align: center;
