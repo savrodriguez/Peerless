@@ -97,6 +97,9 @@ header {
     letter-spacing: 2px;
     margin: 70px;
     font-weight: 500 !important;
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
 
 #offer {
@@ -133,7 +136,7 @@ header {
 
     #title {
         font-size: 1.5rem;
-        margin-top: 10px;
+        margin-top: 30px;
     }
 
     .nav-link {
@@ -147,6 +150,7 @@ header {
 
     #services {
         font-size: 23px !important;
+        margin-top: 10px !important;
     }
 
     #offer {
