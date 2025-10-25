@@ -177,7 +177,11 @@ header {
         display: block;
     }
     
-
+    #detail {
+        font-size: 15px !important;
+        margin: 20px !important;
+        display: block;
+    }
 
 
 }
