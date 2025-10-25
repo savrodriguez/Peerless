@@ -155,6 +155,7 @@ header {
 
     .services {
         margin-top: 30px !important;
+        display: block;
     }
 
     #offer {
