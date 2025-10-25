@@ -127,7 +127,7 @@ hr {
 @media (max-width: 768px) {
     /* only apply these when the screen is small */
     .site-header {
-        height: 190px;
+        height: 220px;
         width: auto;
         background-position: center;
     }
@@ -144,7 +144,7 @@ hr {
     }
 
     .nav-link {
-        font-size: 0.6rem;
+        font-size: 0.8rem;
         font-weight: 400 !important;
     }
  
@@ -155,6 +155,22 @@ hr {
  
     #main-head {
         font-size: 18px;
+    }
+
+    .products {
+        margin-top: 10px !important;
+    }
+
+    .service-img {
+        height: auto;
+        width: 90%;
+        margin-top: 10px;
+    }
+
+    #dad {
+        height: auto;
+        width: 90%;
+        margin-top: 10px !important;
     }
 
 }
