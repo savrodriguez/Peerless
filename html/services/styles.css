@@ -3,7 +3,7 @@ html, body {
 }
 
 .site-header {
-    background-image: url('../../imgs/header.png');
+    background-image: url('/Peerless/html/imgs/header.png');
     background-size: cover;
     background-position: center;
     height: 400px;              
