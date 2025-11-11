@@ -74,6 +74,23 @@ header {
 
 }
 
+.item-new {
+    font-size: 15px !important;
+    font-family: "Montserrat", sans-serif !important;
+    font-weight: 400 !important;
+    letter-spacing: 3px;
+    padding: 18px 2px;
+    margin-top: 35px !important;
+    margin-left: 100px !important;
+    width: 935px !important;
+    border: solid #174572;
+    border-radius: 13px;
+    background-color: #174572;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
 .item-press {
     font-size: 15px !important;
     font-family: "Montserrat", sans-serif !important;
@@ -104,6 +121,11 @@ body {
     font-family: "Montserrat", sans-serif !important;
 }
 
+#bird {
+    height: 80px;
+    width: auto;
+    margin: 90px;
+}
 
 #main-head {
     font-size: 36px;
